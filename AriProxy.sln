@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AriProxy.Client", "Client\AriProxy.Client.csproj", "{77815A2B-0CB4-4D48-9621-B8E4DFC5AB72}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{1BD68D9C-76CB-4992-9CA5-EF2A9FC7BFD0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependencies", "Dependencies", "{BF062E1D-6AA7-4935-A725-82FDAA23CAC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceTest", "ServiceTest\ServiceTest.csproj", "{B97F5E1E-3506-4F99-86F0-DE2F7662D7DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientTest", "ClientTest\ClientTest.csproj", "{8E9FD7AB-7187-42BE-8B73-35F3387E5B60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AriProxy.Service", "Service\AriProxy.Service.csproj", "{A395AA88-F137-4AA4-B2DF-7E82013615BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsterNET.ARI", "..\Lib\AsterNET.ARI\AsterNET.ARI\AsterNET.ARI.csproj", "{F4C8C633-2207-4C25-89A8-4D23D9CFA964}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77815A2B-0CB4-4D48-9621-B8E4DFC5AB72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77815A2B-0CB4-4D48-9621-B8E4DFC5AB72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77815A2B-0CB4-4D48-9621-B8E4DFC5AB72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77815A2B-0CB4-4D48-9621-B8E4DFC5AB72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B97F5E1E-3506-4F99-86F0-DE2F7662D7DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B97F5E1E-3506-4F99-86F0-DE2F7662D7DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B97F5E1E-3506-4F99-86F0-DE2F7662D7DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B97F5E1E-3506-4F99-86F0-DE2F7662D7DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E9FD7AB-7187-42BE-8B73-35F3387E5B60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E9FD7AB-7187-42BE-8B73-35F3387E5B60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E9FD7AB-7187-42BE-8B73-35F3387E5B60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E9FD7AB-7187-42BE-8B73-35F3387E5B60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A395AA88-F137-4AA4-B2DF-7E82013615BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A395AA88-F137-4AA4-B2DF-7E82013615BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A395AA88-F137-4AA4-B2DF-7E82013615BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A395AA88-F137-4AA4-B2DF-7E82013615BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4C8C633-2207-4C25-89A8-4D23D9CFA964}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4C8C633-2207-4C25-89A8-4D23D9CFA964}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4C8C633-2207-4C25-89A8-4D23D9CFA964}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4C8C633-2207-4C25-89A8-4D23D9CFA964}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B97F5E1E-3506-4F99-86F0-DE2F7662D7DE} = {1BD68D9C-76CB-4992-9CA5-EF2A9FC7BFD0}
+		{8E9FD7AB-7187-42BE-8B73-35F3387E5B60} = {1BD68D9C-76CB-4992-9CA5-EF2A9FC7BFD0}
+		{F4C8C633-2207-4C25-89A8-4D23D9CFA964} = {BF062E1D-6AA7-4935-A725-82FDAA23CAC1}
+	EndGlobalSection
+EndGlobal
